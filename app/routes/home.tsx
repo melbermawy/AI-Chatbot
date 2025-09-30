@@ -1,4 +1,5 @@
 import type { Route } from "./+types/home";
+import { Link } from "react-router"
 import { Welcome } from "../welcome/welcome";
 import { useLoaderData, redirect, type LoaderFunctionArgs } from "react-router";
 import { auth } from "../auth.server";
@@ -24,11 +25,12 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   const { data, isPending, error } = authClient.useSession()
    if (data) {
-    return <div>Hello, {data.user.email}!</div>
+    return <Link to="/chat">Open Chat</Link>
   } else {
     return <div className="p-1.5 m-1.5">
-      <h1>Please Sign up</h1>
+      <h1>Please Sign up or Sign in</h1>
       <Signup />
+      <Signin />
     </div>
   }
 }
