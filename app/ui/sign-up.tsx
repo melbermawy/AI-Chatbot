@@ -1,0 +1,31 @@
+import { useState } from "react"
+import { Form } from "react-router"
+import { authClient } from "~/auth-client"
+
+export default function Signup() {
+    const [name, setName] = useState("")
+    const [email, setEmail] = useState("")
+    const [password, setPassword] = useState("")
+
+   async function handleSignUp(e: React.FormEvent) {
+       e.preventDefault();
+       await authClient.signUp.email({ email, name, password, callbackURL: "/" })
+   }
+
+
+   return (
+       <div className="bg-yellow">
+       <form onSubmit={handleSignUp} className="flex flex-row gap-5 p-5 rounded-2xl ">
+        <input className="border border-white" name="name" type="name" placeholder="Enter Name" onChange={(e) => setName(e.target.value)} required />
+       <input className="border border-white" name="email" type="email" placeholder="Enter Email" onChange={(e) => setEmail(e.target.value)} required />
+       <input className="border border-white" name="password" type="password" placeholder="Enter Password" onChange={(e) => setPassword(e.target.value)} required />
+       <button className="border border-white" type="submit">Sign Up</button>
+       </form>
+       </div>
+
+
+
+
+   )
+
+}
