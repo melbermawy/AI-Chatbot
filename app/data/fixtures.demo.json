@@ -1,0 +1,50 @@
+[
+  {
+    "fixtureId": "EPL-2025-10-03-ARS-MCI",
+    "league": "EPL",
+    "kickoff_utc": "2025-10-03T19:00:00Z",
+    "home": "ARS", "away": "MCI", "venue_home": true,
+    "odds_decimal": { "home": 2.35, "draw": 3.40, "away": 2.90, "book": "DemoBook" },
+    "recent": {
+      "home": { "w": 3, "d": 1, "l": 1, "gf": 9, "ga": 5, "xg": 9.6, "xga": 6.8, "sot_for": 31, "sot_against": 20 },
+      "away": { "w": 2, "d": 2, "l": 1, "gf": 7, "ga": 6, "xg": 8.1, "xga": 7.4, "sot_for": 26, "sot_against": 22 }
+    },
+    "players": {
+      "home_key": { "name": "Saka", "min_last": [60,72,85,90,75], "sot_last5": 7, "status": "probable" },
+      "away_key": { "name": "Foden", "min_last": [90,90,74,80,68], "sot_last5": 6, "status": "probable" }
+    },
+    "availability": { "home_out": ["LB"], "away_out": ["DM"] }
+  },
+  {
+    "fixtureId": "EPL-2025-10-04-LIV-CHE",
+    "league": "EPL",
+    "kickoff_utc": "2025-10-04T16:30:00Z",
+    "home": "LIV", "away": "CHE", "venue_home": true,
+    "odds_decimal": { "home": 1.95, "draw": 3.60, "away": 3.70, "book": "DemoBook" },
+    "recent": {
+      "home": { "w": 4, "d": 1, "l": 0, "gf": 11, "ga": 4, "xg": 10.4, "xga": 5.5, "sot_for": 33, "sot_against": 18 },
+      "away": { "w": 1, "d": 2, "l": 2, "gf": 5, "ga": 8, "xg": 6.7, "xga": 9.2, "sot_for": 20, "sot_against": 29 }
+    },
+    "players": {
+      "home_key": { "name": "Salah", "min_last": [90,90,90,75,88], "sot_last5": 10, "status": "probable" },
+      "away_key": { "name": "Palmer", "min_last": [76,82,65,70,64], "sot_last5": 6, "status": "probable" }
+    },
+    "availability": { "home_out": [], "away_out": ["CB"] }
+  },
+  {
+    "fixtureId": "EPL-2025-10-04-NEW-MUN",
+    "league": "EPL",
+    "kickoff_utc": "2025-10-04T20:00:00Z",
+    "home": "MUN", "away": "NEW", "venue_home": true,
+    "odds_decimal": { "home": 2.35, "draw": 3.60, "away": 3.30, "book": "DemoBook" },
+    "recent": {
+      "home": { "w": 3, "d": 1, "l": 1, "gf": 9, "ga": 5, "xg": 10.4, "xga": 5.5, "sot_for": 30, "sot_against": 18 },
+      "away": { "w": 2, "d": 2, "l": 1, "gf": 7, "ga": 6, "xg": 6.7, "xga": 5.2, "sot_for": 23, "sot_against": 29 }
+    },
+    "players": {
+      "home_key": { "name": "Fernandes", "min_last": [90,90,90,75,88], "sot_last5": 6, "status": "probable" },
+      "away_key": { "name": "Isak", "min_last": [76,82,65,70,64], "sot_last5": 7, "status": "probable" }
+    },
+    "availability": { "home_out": ["CB"], "away_out": [] }
+  }
+]
