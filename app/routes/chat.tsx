@@ -48,10 +48,6 @@ export default function Chat() {
     void send("first reply: concise pre-match opener (no JSON). include odds, implied %, our model %, edge %, EV/$100, stake %, and 2–3 stats.");
   }, [fixtureId, riskMode, stat_pack, send]);
 
-  useEffect(() => {
-  if (!stat_pack || !openedRef.current) return;
-  void send(`risk mode set to ${riskMode}. give an updated moneyline recommendation in one short sentence (no JSON).`)
-}, [riskMode])
 
 
   const kickoff = stat_pack?.kickoff_est || stat_pack?.kickoff_utc;
@@ -110,12 +106,7 @@ export default function Chat() {
             <div className="text-xs uppercase tracking-wide text-zinc-500">{message.role}</div>
             {message.parts.map((part, i) => {
               if (part.type === "text") {
-                    const text = part.text as string
-                        if (message.role === "user" && text.startsWith("first reply:")) {
-                        return null
-                        }
                 return <div key={`${message.id}-${i}`} className="text-sm">{part.text}</div>;
-                
               }
               return null;
             })}
