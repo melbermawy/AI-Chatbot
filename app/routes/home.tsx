@@ -5,6 +5,7 @@ import { useLoaderData, redirect, type LoaderFunctionArgs } from "react-router";
 import { auth } from "../auth.server";
 import Signup from "../ui/sign-up"
 import Signin from "../ui/sign-in"
+import FixturesList from "./FixturesList"
 // Import or define authClient
 import { authClient } from "../auth-client";
 
@@ -25,7 +26,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   const { data, isPending, error } = authClient.useSession()
    if (data) {
-    return <Link to="/chat">Open Chat</Link>
+    return <FixturesList />
   } else {
     return <div className="p-1.5 m-1.5">
       <h1>Please Sign up or Sign in</h1>
