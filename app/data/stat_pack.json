@@ -1,0 +1,136 @@
+[
+  {
+    "fixtureId": "EPL-2025-10-04-LEE-TOT",
+    "league": "EPL",
+    "kickoff_est": "2025-10-04T11:30:00Z",
+    "home": "LEE", "away": "TOT", "venue_home": true,
+    "homeCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Leeds_United_F.C._logo.svg/965px-Leeds_United_F.C._logo.svg.png",
+    "awayCrest": "https://upload.wikimedia.org/wikipedia/sco/thumb/b/b4/Tottenham_Hotspur.svg/389px-Tottenham_Hotspur.svg.png",
+    "odds_decimal": { "home": 2.72, "draw": 3.53, "away": 2.52, "book": "BETMGM" },
+    "recent": {
+    "home": { "w": 1, "d": 2, "l": 2, "gf": 6, "ga": 5, "xg": 6.1, "xga": 5.15, "sot_for": 66, "sot_against": 61 },
+    "away": { "w": 2, "d": 3, "l": 0, "gf": 10, "ga": 4, "xg": 5.7, "xga": 5.8, "sot_for": 58, "sot_against": 54 }
+  },
+    "players": {
+    "home_key": { "name": "Richarlison", "min_last": [90,90,30,90,76], "sot_last5": 9, "status": "probable" },
+    "away_key": { "name": "Dominic Calvert-Lewin", "min_last": [90,90,68,21,33], "sot_last5": 7, "status": "probable" }
+  },
+    "availability": { "home_out": ["GK"], "away_out": [] }
+  },
+  {
+    "fixtureId": "EPL-2025-10-04-ARS-WHU",
+    "league": "EPL",
+    "kickoff_est": "2025-10-04T14:00:00Z",
+    "home": "ARS", "away": "WHU", "venue_home": true,
+    "homeCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Arsenal_FC.svg/1021px-Arsenal_FC.svg.png",
+
+    "awayCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/West_Ham_United_FC_logo.svg/1079px-West_Ham_United_FC_logo.svg.png",
+    
+
+    "odds_decimal": { "home": 1.2, "draw": 6.23, "away": 14.94, "book": "BETMGM" },
+    "recent": {
+    "home": { "w": 4, "d": 1, "l": 0, "gf": 9, "ga": 2, "xg": 8, "xga": 1.5, "sot_for": 66, "sot_against": 40 },
+    "away": { "w": 1, "d": 1, "l": 3, "gf": 7, "ga": 9, "xg": 5.5, "xga": 7.35, "sot_for": 50, "sot_against": 62 }
+  },
+    "players": {
+    "home_key": { "name": "Gyokeres", "min_last": [90,90,20,90,64], "sot_last5": 9, "status": "probable" },
+    "away_key": { "name": "Fullkrug", "min_last": [90,32,0,30,0], "sot_last5": 6, "status": "probable" }
+  },
+    "availability": { "home_out": ["CB"], "away_out": ["DM", "RB"] }
+  },
+  {
+    "fixtureId": "EPL-2025-10-04-MUN-SUN",
+    "league": "EPL",
+    "kickoff_est": "2025-10-04T14:00:00Z",
+    "home": "MUN", "away": "SUN", "venue_home": true,
+    "homeCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/1184px-Manchester_United_FC_crest.svg.png",
+
+    "awayCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Logo_Sunderland.svg/1200px-Logo_Sunderland.svg.png",
+
+    "odds_decimal": { "home": 1.48, "draw": 4.74, "away": 5.99, "book": "BETMGM" },
+    "recent": {
+    "home": { "w": 2, "d": 0, "l": 3, "gf": 8, "ga": 11, "xg": 11.75, "xga": 7, "sot_for": 88, "sot_against": 76 },
+    "away": { "w": 2, "d": 2, "l": 1, "gf": 5, "ga": 3, "xg": 5.1, "xga": 5, "sot_for": 55, "sot_against": 52 }
+  },
+    "players": {
+    "home_key": { "name": "Sesko", "min_last": [90,45,79,90,90], "sot_last5": 9, "status": "probable" },
+    "away_key": { "name": "Wilson", "min_last": [90,79,26,90,77], "sot_last5": 11, "status": "probable" }
+  },
+    "availability": { "home_out": ["RB", "CB", "LB"], "away_out": ["LB", "CM"] }
+  },
+  {
+    "fixtureId": "EPL-2025-10-04-CHE-LIV",
+    "league": "EPL",
+    "kickoff_est": "2025-10-04T16:30:00Z",
+    "home": "CHE", "away": "LIV", "venue_home": true,
+    "homeCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/1200px-Chelsea_FC.svg.png",
+
+    "awayCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/879px-Liverpool_FC.svg.png",
+
+    "odds_decimal": { "home": 2.85, "draw": 3.77, "away": 2.23, "book": "BETMGM" },
+    "recent": {
+    "home": { "w": 2, "d": 0, "l": 3, "gf": 6, "ga": 7, "xg": 6.6, "xga": 8.1, "sot_for": 67, "sot_against": 64 },
+    "away": { "w": 3, "d": 0, "l": 2, "gf": 8, "ga": 7, "xg": 10, "xga": 7.7, "sot_for": 75, "sot_against": 68 }
+  },
+    "players": {
+    "home_key": { "name": "Joao Pedro", "min_last": [90,90,30,90,76], "sot_last5": 10, "status": "probable" },
+    "away_key": { "name": "Ekitike", "min_last": [90,90,68,21,33], "sot_last5": 11, "status": "probable" }
+  },
+    "availability": { "home_out": [], "away_out": ["GK", "LF"] }
+  },
+  {
+    "fixtureId": "SA-2025-10-05-JUV-MIL",
+    "league": "SerieA",
+    "kickoff_est": "2025-10-05T18:45:00Z",
+    "home": "JUV", "away": "MIL", "venue_home": true,
+    "homeCrest": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/1280px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png",
+
+    "awayCrest": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/1306px-Logo_of_AC_Milan.svg.png",
+    "odds_decimal": { "home": 2.6, "draw": 3.17, "away": 2.77, "book": "BETMGM" },
+    "recent": {
+    "home": { "w": 1, "d": 4, "l": 0, "gf": 12, "ga": 11, "xg": 13, "xga": 10.7, "sot_for": 85, "sot_against": 79 },
+    "away": { "w": 5, "d": 0, "l": 0, "gf": 11, "ga": 1, "xg": 13, "xga": 1.8, "sot_for": 81, "sot_against": 44 }
+  },
+    "players": {
+    "home_key": { "name": "Vlahovic", "min_last": [80,90,70,90,76], "sot_last5": 12, "status": "probable" },
+    "away_key": { "name": "Pulisic", "min_last": [90,90,68,88,90], "sot_last5": 13, "status": "probable" }
+  },
+    "availability": { "home_out": ["CM", "CB"], "away_out": ["LB", "CB"] }
+  },
+  {
+    "fixtureId": "LL-2025-10-05-SEV-BAR",
+    "league": "LaLiga",
+    "kickoff_est": "2025-10-05T14:15:00Z",
+    "home": "SEV", "away": "BAR", "venue_home": true,
+    "homeCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Sevilla_FC_logo.svg/986px-Sevilla_FC_logo.svg.png",
+    "awayCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1183px-FC_Barcelona_%28crest%29.svg.png",
+    "odds_decimal": { "home": 4.10, "draw": 3.60, "away": 1.90, "book": "BETMGM" },
+    "recent": {
+      "home": { "w": 2, "d": 1, "l": 2, "gf": 6, "ga": 7, "xg": 6.2, "xga": 7.1, "sot_for": 24, "sot_against": 27 },
+      "away": { "w": 4, "d": 0, "l": 1, "gf": 11, "ga": 5, "xg": 9.8, "xga": 5.9, "sot_for": 31, "sot_against": 19 }
+    },
+    "players": {
+      "home_key": { "name": "En-Nesyri", "min_last": [88,90,76,90,72], "sot_last5": 7, "status": "probable" },
+      "away_key": { "name": "Lewandowski", "min_last": [90,78,90,84,90], "sot_last5": 10, "status": "probable" }
+    },
+    "availability": { "home_out": ["RB"], "away_out": ["CB"] }
+  },
+  {
+    "fixtureId": "BUN-2025-10-04-DOR-RBL",
+    "league": "Bundesliga",
+    "kickoff_est": "2025-10-04T13:30:00Z",
+    "home": "DOR", "away": "RBL", "venue_home": true,
+    "homeCrest": "https://upload.wikimedia.org/wikipedia/commons/7/74/Borussia_Dortmund.png",
+    "awayCrest": "https://upload.wikimedia.org/wikipedia/en/thumb/0/04/RB_Leipzig_2014_logo.svg/1200px-RB_Leipzig_2014_logo.svg.png",
+    "odds_decimal": { "home": 2.62, "draw": 3.50, "away": 2.55, "book": "BETMGM" },
+    "recent": {
+      "home": { "w": 3, "d": 1, "l": 1, "gf": 9, "ga": 6, "xg": 8.7, "xga": 6.9, "sot_for": 29, "sot_against": 23 },
+      "away": { "w": 3, "d": 1, "l": 1, "gf": 10, "ga": 7, "xg": 9.1, "xga": 6.5, "sot_for": 30, "sot_against": 22 }
+    },
+    "players": {
+      "home_key": { "name": "Malen", "min_last": [86,90,74,65,80], "sot_last5": 8, "status": "probable" },
+      "away_key": { "name": "Openda", "min_last": [90,84,90,78,90], "sot_last5": 9, "status": "probable" }
+    },
+    "availability": { "home_out": ["LB"], "away_out": [] }
+  }
+]
